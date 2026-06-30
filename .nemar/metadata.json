@@ -2,47 +2,12 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG Practice Set",
+  "description": "A practice dataset containing EEG recordings collected during the Student Network for Neuroscience EEG Workshop. This dataset is intended solely for educational and training purposes and is not suitable for scientific analysis or research applications.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Kähler, Asuka": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds007813.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on007813",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataset/on007813",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".csv",
-    ".eeg",
-    ".json",
-    ".log",
-    ".md",
-    ".psydat",
-    ".vhdr",
-    ".vmrk"
-  ],
-  "description": "A practice EEG dataset collected during a neuroscience workshop organized by the Student Network for Neuroscience. This dataset is intended solely for educational and training purposes and is not suitable for scientific analysis or research applications.",
   "keywords": [
     {
       "term": "EEG"
@@ -63,8 +28,44 @@
       "term": "training"
     },
     {
-      "term": "Student Network for Neuroscience"
+      "term": "practice"
     }
   ],
-  "source_hash": "22cefd9f69f1617b7d3f18534463859b6e1a282159825bcd63736452d0a96789"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on007813",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007813",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007813.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "504.8 MB (25 files)"
+  ],
+  "formats": [
+    ".csv",
+    ".eeg",
+    ".json",
+    ".log",
+    ".md",
+    ".psydat",
+    ".vhdr",
+    ".vmrk",
+    ".yml"
+  ],
+  "source_hash": "692f3ce5cf801a2c93f5dafd1846a44f8ab13d3effacb64647dc1a87d6df4e83"
 }
