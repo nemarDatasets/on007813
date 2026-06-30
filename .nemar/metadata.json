@@ -1,27 +1,70 @@
 {
   "version": "2.0",
-  "dataset_id": "on007813",
-  "source": "openneuro",
-  "source_id": "ds007813",
+  "pipeline_stage": "validated",
   "title": "EEG Practice Set",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Kähler, Asuka": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007813.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007813",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007813",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.9.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".csv",
+    ".eeg",
+    ".json",
+    ".log",
+    ".md",
+    ".psydat",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "A practice EEG dataset collected during a neuroscience workshop organized by the Student Network for Neuroscience. This dataset is intended solely for educational and training purposes and is not suitable for scientific analysis or research applications.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "electroencephalography"
+    },
+    {
+      "term": "neuroimaging"
+    },
+    {
+      "term": "educational dataset"
+    },
+    {
+      "term": "workshop"
+    },
+    {
+      "term": "training"
+    },
+    {
+      "term": "Student Network for Neuroscience"
+    }
+  ],
+  "source_hash": "22cefd9f69f1617b7d3f18534463859b6e1a282159825bcd63736452d0a96789"
 }
