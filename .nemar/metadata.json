@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG Practice Set",
-  "description": "This dataset contains EEG recordings collected during an EEG Workshop organized by the Student Network for Neuroscience. It is intended exclusively for practice and training purposes and is not suitable for scientific analysis.",
+  "description": "A small practice EEG dataset collected during an EEG workshop organized by the Student Network for Neuroscience. It is intended solely for training and practice purposes and is not suitable for any formal analysis.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -16,7 +16,10 @@
       "term": "practice dataset"
     },
     {
-      "term": "workshop data"
+      "term": "workshop"
+    },
+    {
+      "term": "education"
     }
   ],
   "related_identifiers": [
@@ -42,7 +45,7 @@
     "eeg"
   ],
   "sizes": [
-    "504.8 MB (25 files)"
+    "481 MB (25 files)"
   ],
   "formats": [
     ".csv",
@@ -56,5 +59,6 @@
     ".vmrk",
     ".yml"
   ],
+  "methods_description": "Data were recorded during an EEG workshop run by the Student Network for Neuroscience.",
   "source_hash": "692f3ce5cf801a2c93f5dafd1846a44f8ab13d3effacb64647dc1a87d6df4e83"
 }
